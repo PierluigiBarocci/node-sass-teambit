@@ -179,6 +179,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #233569;
+}
+
 .container {
   width: 75%;
   margin: 0 auto;
@@ -214,7 +218,7 @@ header ul li {
   font-size: 14px;
 }
 
-header ul li:hover {
+header ul li a:hover {
   color: #30488F;
 }
 
@@ -233,5 +237,76 @@ header .sign-up-button:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   cursor: pointer;
+}
+
+/* Styling Jumbotron */
+
+.jumbotron {
+  margin: 100px 0;
+}
+
+.jumbotron .container .jumbotron-left {
+  float: left;
+  width: 50%;
+}
+
+.jumbotron .container .jumbotron-left h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: left;
+  line-height: 1.4;
+  padding-right: 30px;
+}
+
+.jumbotron .container .jumbotron-left p {
+  font-size: 22px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  text-align: left;
+  padding-right: 50px;
+}
+
+.jumbotron .container .jumbotron-left .buttons-section {
+  margin-bottom: 30px;
+}
+
+.jumbotron .container .jumbotron-left .buttons-section span {
+  margin: 0 15px;
+  font-size: 12px;
+}
+
+.jumbotron .container .jumbotron-left .buttons-section button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #30488F;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+
+.jumbotron .container .jumbotron-left .buttons-section button:hover {
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #233569;
+}
+
+.jumbotron .container .jumbotron-left a:last-child {
+  font-size: 12px;
+}
+
+.jumbotron .container .jumbotron-right {
+  float: left;
+  width: 50%;
+}
+
+.jumbotron .container .jumbotron-right img {
+  width: 570px;
+}
+
+.jumbotron .container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 

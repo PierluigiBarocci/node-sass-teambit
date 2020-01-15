@@ -1,0 +1,66 @@
+/* Styling Jumbotron */
+.jumbotron {
+    margin: 100px 0;
+    .container {
+        .jumbotron-left {
+            float: left;
+            width: 50%;
+
+            h1 {
+                font-size: 50px;
+                margin-bottom: 30px;
+                text-align: left;
+                line-height: 1.4;
+                padding-right: 30px;
+            }
+
+            p {
+                font-size: 22px;
+                margin-bottom: 40px;
+                line-height: 1.5;
+                text-align: left;
+                padding-right: 50px;
+            }
+
+            .buttons-section {
+                margin-bottom: 30px;
+
+                span {
+                    margin: 0 15px;
+                    font-size: 12px;
+                }
+
+                button {
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    background-color: $blue_style;
+                    color: white;
+                    border: none;
+                    font-size: 14px;
+
+                    &:hover {
+                        cursor: pointer;
+                        transition: 0.2s;
+                        background-color: $dark_blue_style;
+                    }
+                }
+            }
+
+            a:last-child {
+                font-size: 12px;
+            }
+        }
+        .jumbotron-right {
+            float: left;
+            width: 50%;
+
+            img {
+                width: 570px;
+            }
+        } &:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+    }
+}
