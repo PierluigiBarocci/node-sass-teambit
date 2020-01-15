@@ -167,11 +167,71 @@ select {
   vertical-align: middle;
 }
 
+/* General Styling */
+
+body {
+  color: #58402c;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
 /* Styling Header */
 
 header {
-  height: 50px;
-  width: 100%;
-  padding: 5px;
+  height: 75px;
+  margin-bottom: 40px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid grey;
+}
+
+header ul {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+header ul li:hover {
+  color: #30488F;
+}
+
+header .sign-up-button {
+  padding: 8px 16px;
+  font-weight: 600;
+  background-color: white;
+  color: #30488F;
+  border: 1px solid #30488F;
+  border-radius: 5px;
+}
+
+header .sign-up-button:hover {
+  background-color: #233569;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
