@@ -1,0 +1,59 @@
+/* Styling Central Sections */
+
+/*The first one*/
+#special-break {
+    width: 75%;
+    margin: 80px auto;
+}
+#smaller {
+    width: 60px;
+}
+.first-section {
+    padding: 30px 0;
+    text-align: center;
+
+    h3 {
+        margin: 50px 0;
+        padding: 0 110px;
+        font-size: 26px;
+        line-height: 1.5;
+    }
+}
+.pink {
+    background-color: #ffe7d2;
+}
+.section-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section-images {
+    display: flex;
+    padding-top: 30px;
+    .card-images {
+        width: calc(100% / 3);
+        margin-bottom: 50px;
+        .container-img {
+            height: 105px;
+            margin-bottom: 35px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+        }
+
+        img {
+            width: 140px;
+        }
+    }
+}
+.section-images.alone {
+    display: flex;
+    justify-content: center;
+}
+.section-images.alone img {
+    width: 280px;
+    margin: 30px 0;
+}
